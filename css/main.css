@@ -17,9 +17,23 @@
   min-height: 60vh;
 }
 
+.bed {
+  background-image: url("../img/bed.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+.pencil{
+  background-image: url("../img/pencil.jpg");
+  background-size: cover;
+  background-position: left -125px;
+  min-height: 50vh;
+
+}
+
 h1{
 font-size: 2rem;
-margin-bottom: 0;
 }
 
 h2{
@@ -28,16 +42,15 @@ font-size: 2rem;
 
 h3{
 font-size: 5rem;
-margin-top: 0;
-margin-bottom: 0;
+
 }
 
 h4{
-
+font-size: 5rem;
 }
 
 h5{
-
+font-size: 2rem;
 }
 
 h6{
@@ -70,17 +83,9 @@ font-weight: 400;
   font-weight: 700;
 }
 
-.bed {
-  background-image: url("../img/bed.jpg");
-  background-size: cover;
-  background-position: center;
-  min-height: 60vh;
-}
-
 /*spacing helpers*/
 .padding-left{
   padding-left: 5%;
-
 }
 
 .padding-right{
@@ -90,4 +95,25 @@ font-weight: 400;
 .padding-left-right{
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.margin-none{
+  margin: 0;
+}
+.margin-left-right-none{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.margin-top-bottom-none{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.margin-top-none{
+  margin-top: 0;
+}
+
+.margin-bottom-none{
+  margin-bottom: 0;
 }
