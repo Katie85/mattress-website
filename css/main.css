@@ -10,13 +10,20 @@
   background-size: cover;
 }
 
+.dog{
+  background-image: url("../img/dog.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
 h1{
 font-size: 2rem;
-margin-bottom: 0; 
+margin-bottom: 0;
 }
 
 h2{
-
+font-size: 2rem;
 }
 
 h3{
@@ -61,4 +68,26 @@ font-weight: 400;
 .roboto-bold{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+}
+
+.bed {
+  background-image: url("../img/bed.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+}
+
+/*spacing helpers*/
+.padding-left{
+  padding-left: 5%;
+
+}
+
+.padding-right{
+  padding-right: 5%;
+}
+
+.padding-left-right{
+  padding-left: 5%;
+  padding-right: 5%;
 }
