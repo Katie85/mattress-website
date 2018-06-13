@@ -1,7 +1,12 @@
 
 *{
-  border: solid 1px black;
+  box-sizing: border-box;
 
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  line-height: 1.45;
 }
 
 .banner{
@@ -56,7 +61,7 @@ h5{
 }
 
 h6{
-
+font-size: 4rem;
 }
 
 /*quote section*/
@@ -72,6 +77,21 @@ font-size: 2rem;
 .quote p{
   font-size: 1.75rem;
   opacity: 0.5;
+}
+
+/*footer*/
+.footer{
+  background-color: #192B37;
+  min-height: 75vh;
+}
+
+.footer form *{
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 12px 8px;
+  border-radius: 8px;
 }
 
 /* text helpers */
@@ -90,7 +110,6 @@ text-align: right;
 .text-yellow{
   color: #FFBE00;
 }
-
 
 /*font helpers*/
 .roboto-regular{
